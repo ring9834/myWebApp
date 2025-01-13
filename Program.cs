@@ -13,6 +13,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// Editing the line (file from feature-2 branch)
 app.UseHttpsRedirection();
 app.UseRouting();
 
